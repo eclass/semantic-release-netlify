@@ -1,6 +1,6 @@
 {
   "name": "@eclass/semantic-release-netlify",
-  "version": "0.0.0-development",
+  "version": "1.0.0",
   "description": "semantic-release plugin to deploy app with netlify",
   "main": "src/index.js",
   "scripts": {
