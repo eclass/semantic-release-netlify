@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/eclass/semantic-release-netlify/compare/v1.0.0...v1.0.1) (2019-06-26)
+
+
+### Bug Fixes
+
+* **deps:** update dependency execa to v2 ([3979bd8](https://github.com/eclass/semantic-release-netlify/commit/3979bd8))
+
 # 1.0.0 (2019-03-15)
 
 
