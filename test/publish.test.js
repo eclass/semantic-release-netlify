@@ -45,8 +45,8 @@ describe('Publish', () => {
   })
 
   it('Deploy app', async () => {
-    expect(
-      await publish({}, { cwd, stdout, stderr, logger })
-    ).to.be.a('undefined')
+    expect(await publish({}, { cwd, stdout, stderr, logger })).to.be.a(
+      'undefined'
+    )
   })
 })

@@ -24,6 +24,7 @@ Please make sure to create an [netlify site ID](https://www.netlify.com/docs/cli
   }),
   ENETLIFYDEPLOY: () => ({
     message: 'Error in `netlify deploy` command.',
-    details: `Check the [netlify documentation](https://www.netlify.com/docs/cli/#manual-deploys).`
+    details:
+      'Check the [netlify documentation](https://www.netlify.com/docs/cli/#manual-deploys).'
   })
 }
