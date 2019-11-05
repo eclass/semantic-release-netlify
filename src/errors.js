@@ -3,6 +3,7 @@
 const pkg = require('../package.json')
 
 const [homepage] = pkg.homepage.split('#')
+// eslint-disable-next-line require-jsdoc
 const linkify = file => `${homepage}/blob/master/${file}`
 
 module.exports = {

@@ -8,7 +8,7 @@ const verify = require('../src/verify')
 describe('Verify', () => {
   let cwd
 
-  before(async () => {
+  before(() => {
     cwd = tempy.directory()
   })
 

@@ -9,7 +9,9 @@ const { WritableStreamBuffer, ReadableStreamBuffer } = require('stream-buffers')
 const { mkdir, writeFile } = require('fs-extra')
 const mock = require('mock-require')
 
+// eslint-disable-next-line require-jsdoc
 const execaMock = () => {
+  // eslint-disable-next-line require-jsdoc
   const handlePromise = () => Promise.resolve()
   return {
     stdout: new ReadableStreamBuffer(),
@@ -39,7 +41,7 @@ describe('Publish', () => {
     publish = require('../src/publish')
   })
 
-  beforeEach(async () => {
+  beforeEach(() => {
     stdout = new WritableStreamBuffer()
     stderr = new WritableStreamBuffer()
   })

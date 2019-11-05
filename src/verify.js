@@ -2,7 +2,7 @@
 
 const getError = require('./get-error')
 
-module.exports = async (_, { cwd }) => {
+module.exports = (_, { cwd }) => {
   if (!process.env.NETLIFY_AUTH_TOKEN) {
     throw getError('ENONETLIFYTOKEN')
   }
