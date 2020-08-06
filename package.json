@@ -31,7 +31,7 @@
   "homepage": "https://github.com/eclass/semantic-release-netlify#readme",
   "dependencies": {
     "@semantic-release/error": "^2.1.0",
-    "execa": "^3.2.0"
+    "execa": "^4.0.0"
   },
   "devDependencies": {
     "@commitlint/cli": "9.1.1",
