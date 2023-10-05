@@ -1,6 +1,6 @@
-'use strict'
+"use strict";
 
-const verifyConditions = require('./verify')
-const publish = require('./publish')
+const verifyConditions = require("./verify");
+const publish = require("./publish");
 
-module.exports = { verifyConditions, publish }
+module.exports = { verifyConditions, publish };
