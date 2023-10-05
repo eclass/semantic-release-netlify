@@ -100,9 +100,6 @@
       "config:js-lib"
     ]
   },
-  "release": {
-    "extends": "npm-github-config"
-  },
   "nyc": {
     "extends": "@eclass/semantic-release-npm-github-config"
   }
