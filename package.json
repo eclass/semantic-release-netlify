@@ -68,7 +68,7 @@
     "tempy": "0.7.1"
   },
   "peerDependencies": {
-    "semantic-release": ">=11.0.0 <18.0.0"
+    "semantic-release": ">=11.0.0 <18.0.0 || ^22.0.0"
   },
   "eslintConfig": {
     "extends": "@eclass"
